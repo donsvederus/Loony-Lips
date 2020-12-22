@@ -48,9 +48,9 @@ __meta__ = {
 }
 
 [node name="DisplayText" type="Label" parent="VBoxContainer"]
-margin_top = 62.0
+margin_top = 63.0
 margin_right = 964.0
-margin_bottom = 462.0
+margin_bottom = 463.0
 rect_min_size = Vector2( 0, 400 )
 custom_fonts/font = SubResource( 1 )
 text = "Placeholder"
@@ -64,6 +64,7 @@ margin_top = 467.0
 margin_right = 964.0
 margin_bottom = 540.0
 custom_constants/separation = 12
+alignment = 2
 
 [node name="PlayerText" type="LineEdit" parent="VBoxContainer/HBoxContainer"]
 margin_right = 798.0
